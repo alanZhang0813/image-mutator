@@ -25,7 +25,3 @@ If the input number is 6, the image is given a border, which requires two more c
 The two extra arguments are first the size of the border, and then the color which can be red, green, or blue.
 
 In the terminal input mode, which is caused when there are zero command line arguments, the terminal will have prompts.
-
-## Notes to TAs
-
-To test the terminal input version, run the program with zero command line arguments.
