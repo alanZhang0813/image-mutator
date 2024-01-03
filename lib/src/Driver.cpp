@@ -45,7 +45,7 @@ void Driver::runTerminal() {
     std::cout << "Enter the path to where you want to output the image:" << std::endl;
     std::cin >> outputPath;
     Image image(inputPath, outputPath);
-    char transformationType;
+    char transformationType = 0;
     while (transformationType != '7') {
         std::cout << "Here are your available transformations:" << std::endl
                   << "1: Flip vertically (x-axis reflection)" << std::endl
